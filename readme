@@ -7,6 +7,4 @@ Upload the plugin in the Wordpress plugin directory and activate the plugin.
 
 Use the below shortcode where ever required.
 
-```bash
 [fc-list]
-```
