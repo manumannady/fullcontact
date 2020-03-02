@@ -1,0 +1,72 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.contacts{
+    max-width: 100%!important;
+}
+.contacts input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contacts .submit{
+    width: 100px!important;
+    float: right;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.all-contacts .search-container {
+  float: right;
+}
+
+.all-contacts input[type=text] {
+  padding: 6px;
+  margin-top: 4px;
+  font-size: 17px;
+  border: none;
+}
+
+.all-contacts .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.all-contacts .search-container button:hover {
+  background: #ccc;
+}
+.search-container input{
+    width: auto;
+}
+.tablinks{
+    color: #040404;
+}
